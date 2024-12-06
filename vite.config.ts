@@ -7,8 +7,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/vue-todo-app/',git commit -am 'add base url'
-  git push origin main
+  base: '/vue-todo-app/',
   plugins: [vue(), vueJsx(), vueDevTools()],
   resolve: {
     alias: {
